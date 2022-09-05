@@ -5,7 +5,7 @@ Swift iOS application with companion watchOS app used to store offline schedules
 
 
 
-[![ClashFound demo](res/AWSCreds.gif)](res/clashFound.gif)](https://www.youtube.com/c/MadeByMiro)
+[![ClashFound demo](res/ClashFound.gif)](https://www.youtube.com/c/MadeByMiro)
 
 
 Roadmap:
