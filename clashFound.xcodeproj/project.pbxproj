@@ -1,0 +1,1249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D03A23B28C54CFB00B4E44D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03A23A28C54CFB00B4E44D /* AppDelegate.swift */; };
+		3D03A23D28C54CFB00B4E44D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03A23C28C54CFB00B4E44D /* SceneDelegate.swift */; };
+		3D03A23F28C54CFB00B4E44D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03A23E28C54CFB00B4E44D /* ViewController.swift */; };
+		3D03A24228C54CFB00B4E44D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D03A24028C54CFB00B4E44D /* Main.storyboard */; };
+		3D03A24428C54CFE00B4E44D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D03A24328C54CFE00B4E44D /* Assets.xcassets */; };
+		3D03A24728C54CFE00B4E44D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D03A24528C54CFE00B4E44D /* LaunchScreen.storyboard */; };
+		3D03A25228C54CFE00B4E44D /* clashFoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03A25128C54CFE00B4E44D /* clashFoundTests.swift */; };
+		3D03A25C28C54CFE00B4E44D /* clashFoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03A25B28C54CFE00B4E44D /* clashFoundUITests.swift */; };
+		3D03A25E28C54CFE00B4E44D /* clashFoundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03A25D28C54CFE00B4E44D /* clashFoundUITestsLaunchTests.swift */; };
+		3DC8004328C55FCE00C0FC78 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 3DC8004228C55FCE00C0FC78 /* SwiftSoup */; };
+		3DC8004528C55FF800C0FC78 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8004428C55FF800C0FC78 /* Schedule.swift */; };
+		3DC8004728C5651400C0FC78 /* CFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8004628C5651400C0FC78 /* CFinder.swift */; };
+		3DC8004928C57E6900C0FC78 /* Act.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8004828C57E6900C0FC78 /* Act.swift */; };
+		3DC8004B28C57F9300C0FC78 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8004A28C57F9300C0FC78 /* Globals.swift */; };
+		3DC8005228C6627000C0FC78 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC8005028C6627000C0FC78 /* Interface.storyboard */; };
+		3DC8005428C6627200C0FC78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC8005328C6627200C0FC78 /* Assets.xcassets */; };
+		3DC8005A28C6627200C0FC78 /* clashFoundW WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3DC8005928C6627200C0FC78 /* clashFoundW WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3DC8005F28C6627200C0FC78 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8005E28C6627200C0FC78 /* InterfaceController.swift */; };
+		3DC8006128C6627200C0FC78 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8006028C6627200C0FC78 /* ExtensionDelegate.swift */; };
+		3DC8006328C6627200C0FC78 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8006228C6627200C0FC78 /* NotificationController.swift */; };
+		3DC8006528C6627200C0FC78 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8006428C6627200C0FC78 /* ComplicationController.swift */; };
+		3DC8006728C6627400C0FC78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC8006628C6627400C0FC78 /* Assets.xcassets */; };
+		3DC8007328C6627400C0FC78 /* clashFoundWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8007228C6627400C0FC78 /* clashFoundWTests.swift */; };
+		3DC8007D28C6627400C0FC78 /* clashFoundWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8007C28C6627400C0FC78 /* clashFoundWUITests.swift */; };
+		3DC8007F28C6627400C0FC78 /* clashFoundWUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8007E28C6627400C0FC78 /* clashFoundWUITestsLaunchTests.swift */; };
+		3DC8008228C6627400C0FC78 /* clashFoundW.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3DC8004E28C6627000C0FC78 /* clashFoundW.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3DC8009328C663F200C0FC78 /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8009228C663A200C0FC78 /* RowController.swift */; };
+		3DC8009628C6670F00C0FC78 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8009428C666F800C0FC78 /* UIViewController.swift */; };
+		3DC8009C28C6AFBE00C0FC78 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8009B28C6AFBE00C0FC78 /* Utils.swift */; };
+		3DC8009F28C6BDCA00C0FC78 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3DC8009E28C6BDCA00C0FC78 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D03A24E28C54CFE00B4E44D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D03A22F28C54CFB00B4E44D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D03A23628C54CFB00B4E44D;
+			remoteInfo = clashFound;
+		};
+		3D03A25828C54CFE00B4E44D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D03A22F28C54CFB00B4E44D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D03A23628C54CFB00B4E44D;
+			remoteInfo = clashFound;
+		};
+		3DC8005B28C6627200C0FC78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D03A22F28C54CFB00B4E44D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC8005828C6627200C0FC78;
+			remoteInfo = "clashFoundW WatchKit Extension";
+		};
+		3DC8006F28C6627400C0FC78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D03A22F28C54CFB00B4E44D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC8005828C6627200C0FC78;
+			remoteInfo = "clashFoundW WatchKit Extension";
+		};
+		3DC8007928C6627400C0FC78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D03A22F28C54CFB00B4E44D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC8004D28C6627000C0FC78;
+			remoteInfo = clashFoundW;
+		};
+		3DC8008028C6627400C0FC78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D03A22F28C54CFB00B4E44D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC8004D28C6627000C0FC78;
+			remoteInfo = clashFoundW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3DC8008628C6627400C0FC78 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3DC8005A28C6627200C0FC78 /* clashFoundW WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC8008A28C6627400C0FC78 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3DC8008228C6627400C0FC78 /* clashFoundW.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D03A23728C54CFB00B4E44D /* clashFound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clashFound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D03A23A28C54CFB00B4E44D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D03A23C28C54CFB00B4E44D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D03A23E28C54CFB00B4E44D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D03A24128C54CFB00B4E44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D03A24328C54CFE00B4E44D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D03A24628C54CFE00B4E44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D03A24828C54CFE00B4E44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D03A24D28C54CFE00B4E44D /* clashFoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clashFoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D03A25128C54CFE00B4E44D /* clashFoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clashFoundTests.swift; sourceTree = "<group>"; };
+		3D03A25728C54CFE00B4E44D /* clashFoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clashFoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D03A25B28C54CFE00B4E44D /* clashFoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clashFoundUITests.swift; sourceTree = "<group>"; };
+		3D03A25D28C54CFE00B4E44D /* clashFoundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clashFoundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DC8004428C55FF800C0FC78 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		3DC8004628C5651400C0FC78 /* CFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFinder.swift; sourceTree = "<group>"; };
+		3DC8004828C57E6900C0FC78 /* Act.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Act.swift; sourceTree = "<group>"; };
+		3DC8004A28C57F9300C0FC78 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		3DC8004E28C6627000C0FC78 /* clashFoundW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clashFoundW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC8005128C6627000C0FC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3DC8005328C6627200C0FC78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DC8005928C6627200C0FC78 /* clashFoundW WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "clashFoundW WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC8005E28C6627200C0FC78 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3DC8006028C6627200C0FC78 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3DC8006228C6627200C0FC78 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3DC8006428C6627200C0FC78 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3DC8006628C6627400C0FC78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DC8006828C6627400C0FC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC8006928C6627400C0FC78 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3DC8006E28C6627400C0FC78 /* clashFoundWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clashFoundWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC8007228C6627400C0FC78 /* clashFoundWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clashFoundWTests.swift; sourceTree = "<group>"; };
+		3DC8007828C6627400C0FC78 /* clashFoundWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clashFoundWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC8007C28C6627400C0FC78 /* clashFoundWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clashFoundWUITests.swift; sourceTree = "<group>"; };
+		3DC8007E28C6627400C0FC78 /* clashFoundWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clashFoundWUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DC8009128C663A100C0FC78 /* clashFoundW-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "clashFoundW-Bridging-Header.h"; sourceTree = "<group>"; };
+		3DC8009228C663A200C0FC78 /* RowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowController.swift; sourceTree = "<group>"; };
+		3DC8009428C666F800C0FC78 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		3DC8009B28C6AFBE00C0FC78 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3DC8009E28C6BDCA00C0FC78 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D03A23428C54CFB00B4E44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC8004328C55FCE00C0FC78 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D03A24A28C54CFE00B4E44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D03A25428C54CFE00B4E44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC8005628C6627200C0FC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC8006B28C6627400C0FC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC8007528C6627400C0FC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D03A22E28C54CFB00B4E44D = {
+			isa = PBXGroup;
+			children = (
+				3DC8009E28C6BDCA00C0FC78 /* README.md */,
+				3DC8009D28C6BD8100C0FC78 /* res */,
+				3D03A23928C54CFB00B4E44D /* clashFound */,
+				3D03A25028C54CFE00B4E44D /* clashFoundTests */,
+				3D03A25A28C54CFE00B4E44D /* clashFoundUITests */,
+				3DC8004F28C6627000C0FC78 /* clashFoundW */,
+				3DC8005D28C6627200C0FC78 /* clashFoundW WatchKit Extension */,
+				3DC8007128C6627400C0FC78 /* clashFoundWTests */,
+				3DC8007B28C6627400C0FC78 /* clashFoundWUITests */,
+				3D03A23828C54CFB00B4E44D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D03A23828C54CFB00B4E44D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D03A23728C54CFB00B4E44D /* clashFound.app */,
+				3D03A24D28C54CFE00B4E44D /* clashFoundTests.xctest */,
+				3D03A25728C54CFE00B4E44D /* clashFoundUITests.xctest */,
+				3DC8004E28C6627000C0FC78 /* clashFoundW.app */,
+				3DC8005928C6627200C0FC78 /* clashFoundW WatchKit Extension.appex */,
+				3DC8006E28C6627400C0FC78 /* clashFoundWTests.xctest */,
+				3DC8007828C6627400C0FC78 /* clashFoundWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D03A23928C54CFB00B4E44D /* clashFound */ = {
+			isa = PBXGroup;
+			children = (
+				3D03A23A28C54CFB00B4E44D /* AppDelegate.swift */,
+				3D03A23C28C54CFB00B4E44D /* SceneDelegate.swift */,
+				3D03A23E28C54CFB00B4E44D /* ViewController.swift */,
+				3D03A24028C54CFB00B4E44D /* Main.storyboard */,
+				3D03A24328C54CFE00B4E44D /* Assets.xcassets */,
+				3D03A24528C54CFE00B4E44D /* LaunchScreen.storyboard */,
+				3D03A24828C54CFE00B4E44D /* Info.plist */,
+				3DC8004428C55FF800C0FC78 /* Schedule.swift */,
+				3DC8004628C5651400C0FC78 /* CFinder.swift */,
+				3DC8004828C57E6900C0FC78 /* Act.swift */,
+				3DC8004A28C57F9300C0FC78 /* Globals.swift */,
+				3DC8009B28C6AFBE00C0FC78 /* Utils.swift */,
+			);
+			path = clashFound;
+			sourceTree = "<group>";
+		};
+		3D03A25028C54CFE00B4E44D /* clashFoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D03A25128C54CFE00B4E44D /* clashFoundTests.swift */,
+				3DC8009428C666F800C0FC78 /* UIViewController.swift */,
+			);
+			path = clashFoundTests;
+			sourceTree = "<group>";
+		};
+		3D03A25A28C54CFE00B4E44D /* clashFoundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D03A25B28C54CFE00B4E44D /* clashFoundUITests.swift */,
+				3D03A25D28C54CFE00B4E44D /* clashFoundUITestsLaunchTests.swift */,
+			);
+			path = clashFoundUITests;
+			sourceTree = "<group>";
+		};
+		3DC8004F28C6627000C0FC78 /* clashFoundW */ = {
+			isa = PBXGroup;
+			children = (
+				3DC8005028C6627000C0FC78 /* Interface.storyboard */,
+				3DC8005328C6627200C0FC78 /* Assets.xcassets */,
+				3DC8009128C663A100C0FC78 /* clashFoundW-Bridging-Header.h */,
+			);
+			path = clashFoundW;
+			sourceTree = "<group>";
+		};
+		3DC8005D28C6627200C0FC78 /* clashFoundW WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3DC8009228C663A200C0FC78 /* RowController.swift */,
+				3DC8005E28C6627200C0FC78 /* InterfaceController.swift */,
+				3DC8006028C6627200C0FC78 /* ExtensionDelegate.swift */,
+				3DC8006228C6627200C0FC78 /* NotificationController.swift */,
+				3DC8006428C6627200C0FC78 /* ComplicationController.swift */,
+				3DC8006628C6627400C0FC78 /* Assets.xcassets */,
+				3DC8006828C6627400C0FC78 /* Info.plist */,
+				3DC8006928C6627400C0FC78 /* PushNotificationPayload.apns */,
+			);
+			path = "clashFoundW WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3DC8007128C6627400C0FC78 /* clashFoundWTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DC8007228C6627400C0FC78 /* clashFoundWTests.swift */,
+			);
+			path = clashFoundWTests;
+			sourceTree = "<group>";
+		};
+		3DC8007B28C6627400C0FC78 /* clashFoundWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DC8007C28C6627400C0FC78 /* clashFoundWUITests.swift */,
+				3DC8007E28C6627400C0FC78 /* clashFoundWUITestsLaunchTests.swift */,
+			);
+			path = clashFoundWUITests;
+			sourceTree = "<group>";
+		};
+		3DC8009D28C6BD8100C0FC78 /* res */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D03A23628C54CFB00B4E44D /* clashFound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D03A26128C54CFE00B4E44D /* Build configuration list for PBXNativeTarget "clashFound" */;
+			buildPhases = (
+				3D03A23328C54CFB00B4E44D /* Sources */,
+				3D03A23428C54CFB00B4E44D /* Frameworks */,
+				3D03A23528C54CFB00B4E44D /* Resources */,
+				3DC8008A28C6627400C0FC78 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC8008128C6627400C0FC78 /* PBXTargetDependency */,
+			);
+			name = clashFound;
+			packageProductDependencies = (
+				3DC8004228C55FCE00C0FC78 /* SwiftSoup */,
+			);
+			productName = clashFound;
+			productReference = 3D03A23728C54CFB00B4E44D /* clashFound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D03A24C28C54CFE00B4E44D /* clashFoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D03A26428C54CFE00B4E44D /* Build configuration list for PBXNativeTarget "clashFoundTests" */;
+			buildPhases = (
+				3D03A24928C54CFE00B4E44D /* Sources */,
+				3D03A24A28C54CFE00B4E44D /* Frameworks */,
+				3D03A24B28C54CFE00B4E44D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D03A24F28C54CFE00B4E44D /* PBXTargetDependency */,
+			);
+			name = clashFoundTests;
+			productName = clashFoundTests;
+			productReference = 3D03A24D28C54CFE00B4E44D /* clashFoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D03A25628C54CFE00B4E44D /* clashFoundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D03A26728C54CFE00B4E44D /* Build configuration list for PBXNativeTarget "clashFoundUITests" */;
+			buildPhases = (
+				3D03A25328C54CFE00B4E44D /* Sources */,
+				3D03A25428C54CFE00B4E44D /* Frameworks */,
+				3D03A25528C54CFE00B4E44D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D03A25928C54CFE00B4E44D /* PBXTargetDependency */,
+			);
+			name = clashFoundUITests;
+			productName = clashFoundUITests;
+			productReference = 3D03A25728C54CFE00B4E44D /* clashFoundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3DC8004D28C6627000C0FC78 /* clashFoundW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC8008728C6627400C0FC78 /* Build configuration list for PBXNativeTarget "clashFoundW" */;
+			buildPhases = (
+				3DC8004C28C6627000C0FC78 /* Resources */,
+				3DC8008628C6627400C0FC78 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC8005C28C6627200C0FC78 /* PBXTargetDependency */,
+			);
+			name = clashFoundW;
+			productName = clashFoundW;
+			productReference = 3DC8004E28C6627000C0FC78 /* clashFoundW.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3DC8005828C6627200C0FC78 /* clashFoundW WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC8008328C6627400C0FC78 /* Build configuration list for PBXNativeTarget "clashFoundW WatchKit Extension" */;
+			buildPhases = (
+				3DC8005528C6627200C0FC78 /* Sources */,
+				3DC8005628C6627200C0FC78 /* Frameworks */,
+				3DC8005728C6627200C0FC78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "clashFoundW WatchKit Extension";
+			productName = "clashFoundW WatchKit Extension";
+			productReference = 3DC8005928C6627200C0FC78 /* clashFoundW WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		3DC8006D28C6627400C0FC78 /* clashFoundWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC8008B28C6627400C0FC78 /* Build configuration list for PBXNativeTarget "clashFoundWTests" */;
+			buildPhases = (
+				3DC8006A28C6627400C0FC78 /* Sources */,
+				3DC8006B28C6627400C0FC78 /* Frameworks */,
+				3DC8006C28C6627400C0FC78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC8007028C6627400C0FC78 /* PBXTargetDependency */,
+			);
+			name = clashFoundWTests;
+			productName = clashFoundWTests;
+			productReference = 3DC8006E28C6627400C0FC78 /* clashFoundWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DC8007728C6627400C0FC78 /* clashFoundWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC8008E28C6627400C0FC78 /* Build configuration list for PBXNativeTarget "clashFoundWUITests" */;
+			buildPhases = (
+				3DC8007428C6627400C0FC78 /* Sources */,
+				3DC8007528C6627400C0FC78 /* Frameworks */,
+				3DC8007628C6627400C0FC78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC8007A28C6627400C0FC78 /* PBXTargetDependency */,
+			);
+			name = clashFoundWUITests;
+			productName = clashFoundWUITests;
+			productReference = 3DC8007828C6627400C0FC78 /* clashFoundWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D03A22F28C54CFB00B4E44D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3D03A23628C54CFB00B4E44D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3D03A24C28C54CFE00B4E44D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3D03A23628C54CFB00B4E44D;
+					};
+					3D03A25628C54CFE00B4E44D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3D03A23628C54CFB00B4E44D;
+					};
+					3DC8004D28C6627000C0FC78 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+					3DC8005828C6627200C0FC78 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3DC8006D28C6627400C0FC78 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3DC8005828C6627200C0FC78;
+					};
+					3DC8007728C6627400C0FC78 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3DC8004D28C6627000C0FC78;
+					};
+				};
+			};
+			buildConfigurationList = 3D03A23228C54CFB00B4E44D /* Build configuration list for PBXProject "clashFound" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D03A22E28C54CFB00B4E44D;
+			packageReferences = (
+				3DC8004128C55FCE00C0FC78 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			productRefGroup = 3D03A23828C54CFB00B4E44D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D03A23628C54CFB00B4E44D /* clashFound */,
+				3D03A24C28C54CFE00B4E44D /* clashFoundTests */,
+				3D03A25628C54CFE00B4E44D /* clashFoundUITests */,
+				3DC8004D28C6627000C0FC78 /* clashFoundW */,
+				3DC8005828C6627200C0FC78 /* clashFoundW WatchKit Extension */,
+				3DC8006D28C6627400C0FC78 /* clashFoundWTests */,
+				3DC8007728C6627400C0FC78 /* clashFoundWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D03A23528C54CFB00B4E44D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D03A24728C54CFE00B4E44D /* LaunchScreen.storyboard in Resources */,
+				3D03A24428C54CFE00B4E44D /* Assets.xcassets in Resources */,
+				3DC8009F28C6BDCA00C0FC78 /* README.md in Resources */,
+				3D03A24228C54CFB00B4E44D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D03A24B28C54CFE00B4E44D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D03A25528C54CFE00B4E44D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC8004C28C6627000C0FC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC8005428C6627200C0FC78 /* Assets.xcassets in Resources */,
+				3DC8005228C6627000C0FC78 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC8005728C6627200C0FC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC8006728C6627400C0FC78 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC8006C28C6627400C0FC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC8007628C6627400C0FC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D03A23328C54CFB00B4E44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC8004928C57E6900C0FC78 /* Act.swift in Sources */,
+				3D03A23F28C54CFB00B4E44D /* ViewController.swift in Sources */,
+				3D03A23B28C54CFB00B4E44D /* AppDelegate.swift in Sources */,
+				3DC8004528C55FF800C0FC78 /* Schedule.swift in Sources */,
+				3DC8004728C5651400C0FC78 /* CFinder.swift in Sources */,
+				3DC8004B28C57F9300C0FC78 /* Globals.swift in Sources */,
+				3D03A23D28C54CFB00B4E44D /* SceneDelegate.swift in Sources */,
+				3DC8009C28C6AFBE00C0FC78 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D03A24928C54CFE00B4E44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC8009628C6670F00C0FC78 /* UIViewController.swift in Sources */,
+				3D03A25228C54CFE00B4E44D /* clashFoundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D03A25328C54CFE00B4E44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D03A25C28C54CFE00B4E44D /* clashFoundUITests.swift in Sources */,
+				3D03A25E28C54CFE00B4E44D /* clashFoundUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC8005528C6627200C0FC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC8009328C663F200C0FC78 /* RowController.swift in Sources */,
+				3DC8006328C6627200C0FC78 /* NotificationController.swift in Sources */,
+				3DC8006528C6627200C0FC78 /* ComplicationController.swift in Sources */,
+				3DC8006128C6627200C0FC78 /* ExtensionDelegate.swift in Sources */,
+				3DC8005F28C6627200C0FC78 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC8006A28C6627400C0FC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC8007328C6627400C0FC78 /* clashFoundWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC8007428C6627400C0FC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC8007D28C6627400C0FC78 /* clashFoundWUITests.swift in Sources */,
+				3DC8007F28C6627400C0FC78 /* clashFoundWUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D03A24F28C54CFE00B4E44D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D03A23628C54CFB00B4E44D /* clashFound */;
+			targetProxy = 3D03A24E28C54CFE00B4E44D /* PBXContainerItemProxy */;
+		};
+		3D03A25928C54CFE00B4E44D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D03A23628C54CFB00B4E44D /* clashFound */;
+			targetProxy = 3D03A25828C54CFE00B4E44D /* PBXContainerItemProxy */;
+		};
+		3DC8005C28C6627200C0FC78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC8005828C6627200C0FC78 /* clashFoundW WatchKit Extension */;
+			targetProxy = 3DC8005B28C6627200C0FC78 /* PBXContainerItemProxy */;
+		};
+		3DC8007028C6627400C0FC78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC8005828C6627200C0FC78 /* clashFoundW WatchKit Extension */;
+			targetProxy = 3DC8006F28C6627400C0FC78 /* PBXContainerItemProxy */;
+		};
+		3DC8007A28C6627400C0FC78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC8004D28C6627000C0FC78 /* clashFoundW */;
+			targetProxy = 3DC8007928C6627400C0FC78 /* PBXContainerItemProxy */;
+		};
+		3DC8008128C6627400C0FC78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC8004D28C6627000C0FC78 /* clashFoundW */;
+			targetProxy = 3DC8008028C6627400C0FC78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D03A24028C54CFB00B4E44D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D03A24128C54CFB00B4E44D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D03A24528C54CFE00B4E44D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D03A24628C54CFE00B4E44D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3DC8005028C6627000C0FC78 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC8005128C6627000C0FC78 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D03A25F28C54CFE00B4E44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D03A26028C54CFE00B4E44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D03A26228C54CFE00B4E44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQ63VWNLW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = clashFound/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clashfound.clashFound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D03A26328C54CFE00B4E44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQ63VWNLW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = clashFound/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clashfound.clashFound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3D03A26528C54CFE00B4E44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQ63VWNLW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clashFound.clashFoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clashFound.app/clashFound";
+			};
+			name = Debug;
+		};
+		3D03A26628C54CFE00B4E44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQ63VWNLW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clashFound.clashFoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clashFound.app/clashFound";
+			};
+			name = Release;
+		};
+		3D03A26828C54CFE00B4E44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQ63VWNLW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clashFound.clashFoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = clashFound;
+			};
+			name = Debug;
+		};
+		3D03A26928C54CFE00B4E44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQ63VWNLW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clashFound.clashFoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = clashFound;
+			};
+			name = Release;
+		};
+		3DC8008428C6627400C0FC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQ63VWNLW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "clashFoundW WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "clashFoundW WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clashfound.clashFound.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		3DC8008528C6627400C0FC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQ63VWNLW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "clashFoundW WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "clashFoundW WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clashfound.clashFound.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		3DC8008828C6627400C0FC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQ63VWNLW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = clashFoundW_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = clashFoundW;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = clashfound.clashFound;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clashfound.clashFound.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "clashFoundW/clashFoundW-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		3DC8008928C6627400C0FC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQ63VWNLW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = clashFoundW_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = clashFoundW;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = clashfound.clashFound;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clashfound.clashFound.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "clashFoundW/clashFoundW-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		3DC8008C28C6627400C0FC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQ63VWNLW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clashfound.clashFound.clashFoundWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clashFoundW WatchKit Extension.appex/clashFoundW WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		3DC8008D28C6627400C0FC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQ63VWNLW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clashfound.clashFound.clashFoundWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clashFoundW WatchKit Extension.appex/clashFoundW WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		3DC8008F28C6627400C0FC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQ63VWNLW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clashfound.clashFound.clashFoundWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = clashFoundW;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		3DC8009028C6627400C0FC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GQ63VWNLW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clashfound.clashFound.clashFoundWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = clashFoundW;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D03A23228C54CFB00B4E44D /* Build configuration list for PBXProject "clashFound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D03A25F28C54CFE00B4E44D /* Debug */,
+				3D03A26028C54CFE00B4E44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D03A26128C54CFE00B4E44D /* Build configuration list for PBXNativeTarget "clashFound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D03A26228C54CFE00B4E44D /* Debug */,
+				3D03A26328C54CFE00B4E44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D03A26428C54CFE00B4E44D /* Build configuration list for PBXNativeTarget "clashFoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D03A26528C54CFE00B4E44D /* Debug */,
+				3D03A26628C54CFE00B4E44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D03A26728C54CFE00B4E44D /* Build configuration list for PBXNativeTarget "clashFoundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D03A26828C54CFE00B4E44D /* Debug */,
+				3D03A26928C54CFE00B4E44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC8008328C6627400C0FC78 /* Build configuration list for PBXNativeTarget "clashFoundW WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC8008428C6627400C0FC78 /* Debug */,
+				3DC8008528C6627400C0FC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC8008728C6627400C0FC78 /* Build configuration list for PBXNativeTarget "clashFoundW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC8008828C6627400C0FC78 /* Debug */,
+				3DC8008928C6627400C0FC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC8008B28C6627400C0FC78 /* Build configuration list for PBXNativeTarget "clashFoundWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC8008C28C6627400C0FC78 /* Debug */,
+				3DC8008D28C6627400C0FC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC8008E28C6627400C0FC78 /* Build configuration list for PBXNativeTarget "clashFoundWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC8008F28C6627400C0FC78 /* Debug */,
+				3DC8009028C6627400C0FC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3DC8004128C55FCE00C0FC78 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3DC8004228C55FCE00C0FC78 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DC8004128C55FCE00C0FC78 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3D03A22F28C54CFB00B4E44D /* Project object */;
+}
