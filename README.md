@@ -3,6 +3,7 @@
 
 Swift iOS application with companion watchOS app used to store offline schedules generated from your favorite Clashfinder!
 
+lol @ my UI
 
 
 [![ClashFound demo](res/clashFound.gif)](https://www.youtube.com/c/MadeByMiro)
