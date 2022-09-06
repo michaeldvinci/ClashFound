@@ -10,12 +10,11 @@ import Foundation
 import WatchConnectivity
 
 class InterfaceController: WKInterfaceController {
-    
     @IBOutlet var table: WKInterfaceTable!
     @IBOutlet var label: WKInterfaceLabel!
     @IBOutlet weak var timeLabel: WKInterfaceLabel!
     let session = WCSession.default
-    var testUp: [String] = []
+    var testUp: [String] = ["no schedule", "loaded"]
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
@@ -31,10 +30,9 @@ class InterfaceController: WKInterfaceController {
     }
     
     func configSession() {
-        let session = WCSession.default
         session.delegate = self
         session.activate()
-        print("activated")
+        print("watch sesh activated")
     }
     
     func loadTable(array: [String]) {

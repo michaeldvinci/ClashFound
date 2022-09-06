@@ -15,6 +15,7 @@ class ViewController: UIViewController, WCSessionDelegate, UITextViewDelegate {
     @IBOutlet var buttonSend: UIButton!
     @IBOutlet var textView: UITextView!
     @IBOutlet var scrollView: UIScrollView!
+    @IBOutlet weak var titleImage: UIImageView!
     var session: WCSession?
     var toWatch: [String] = []
     
@@ -31,8 +32,9 @@ class ViewController: UIViewController, WCSessionDelegate, UITextViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupWatchSession()
+        titleImage.image = UIImage(named: "logo")
         textView.delegate = self
+        setupWatchSession()
     }
     
     func debugAct(actObj: Act) {
@@ -61,6 +63,20 @@ class ViewController: UIViewController, WCSessionDelegate, UITextViewDelegate {
         }) { (error) in
             print(error.localizedDescription)
         }
+    }
+    
+    func scrollToTop() {
+        var offset = CGPoint(
+            x: -scrollView.contentInset.left,
+            y: -scrollView.contentInset.top)
+
+        if #available(iOS 11.0, *) {
+            offset = CGPoint(
+                x: -scrollView.adjustedContentInset.left,
+                y: -scrollView.adjustedContentInset.top)
+        }
+
+        scrollView.setContentOffset(offset, animated: true)
     }
     
     @IBAction func buttonSendTapped() {
@@ -157,6 +173,7 @@ class ViewController: UIViewController, WCSessionDelegate, UITextViewDelegate {
                             }
                         }
                     }
+                    scrollToTop()
                 }
             catch {
                 print("This should be an error") }
@@ -169,6 +186,7 @@ class ViewController: UIViewController, WCSessionDelegate, UITextViewDelegate {
             session = WCSession.default
             session?.delegate = self
             session?.activate()
+            print("activated: yes")
         }
     }
     
